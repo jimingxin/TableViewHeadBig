@@ -29,6 +29,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         titleArray!.append("朱德")
         titleArray!.append("蒋介石")
         titleArray!.append("刘伯承")
+        titleArray!.append("陈毅")
         baseTableView.frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: kScreenHeight)
         
         //:MARK 头部放大 将图片的视图添加到Tableview中，并设置TableView的tableHeaderView的Frame
